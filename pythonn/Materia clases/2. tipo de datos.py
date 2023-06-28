@@ -36,7 +36,7 @@ print("### 02 - DATOS DE TIPO CADENA DE CARACTERES ###\n")
 asignatura = "Programacion"
 carrera = "Ingenieria Civil en Informatica"
 
-print("La asignaruta de", asignatura, "corresponde a la carrera de", carrera, "\n") #Impresion de las variables "asignatura" y "carrera".
+print("La asignatura de", asignatura, "corresponde a la carrera de", carrera, "\n") #Impresion de las variables "asignatura" y "carrera".
 
 #Utilizando la funcion len.
 print("La cantidad de caracteres de la palabra", asignatura, "es de:" ,len(asignatura)) #Cuenta los caracteres de la variable "asignatura".
@@ -141,7 +141,7 @@ print(grupo1[0])
 print("El elemento \"Daniel\" se repite:", grupo1.count("Daniel"), "veces")
 
 #Muestra el indice del primer elemento buscado
-print("El indice del elemento \"Daniel\" es:", grupo1.index("Daniel"))
+print("El indice del elemento \"Matias\" es:", grupo1.index("Matias"))
 
 #Reasignando el primer elemento de la tupla
 #grupo1[0] = "Cony" #Las tuplas no aceptan asignacion de elementos.
