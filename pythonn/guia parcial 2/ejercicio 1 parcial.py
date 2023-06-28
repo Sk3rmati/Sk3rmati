@@ -15,7 +15,7 @@ def cantidad():
 def pedir(num):
     listaa = []
     for i in range(num):
-        num = int(input("Ingrese un número: "))
+        num = int(input("Ingrese un número: \n"))
         listaa.append(num)
     return listaa
 
