@@ -1,25 +1,26 @@
-#01 - OPERADORES ARITMETICOS
+#OPERADORES ARITMETICOS
 
 #Se declaran variables para proceder al uso de operadores
-a = 2
+a = 12
 b = 6
-c= 10
+c= 15
 d = 30
 
 #Operaciones comunes
-print("suma entre dos números", a + b) 
-print("multiplicación entre dos números", c*a)
-print("Números elevados", b**a)
+print("Suma entre dos numeros", a + b) 
+print("Multiplicación entre dos numeros", c*a)
+print("Numeros elevados", b**a)
 print("Resta de números", d - c)
 print("División de números", d/a)
 
 #Operaciones con flotantes
-T= 2
-D = 6
+T= 2.2
+D = 6.4
 
 #Por consecuencia
 
 V = T * D
+print(round(V,2))
 
 #Declarando variables de tipo compleja
 
@@ -36,16 +37,13 @@ print(c2.imag) #Se obtiene la parte imaginaria del número complejo
 
 #¿Se puede multiplicar un String con un número entero?
 
-print("Una cadena de texto" * 5)
+print("Una cadena de texto" * 3)
 
-#Y lo siguiente?
-#print("Hola" * 3.5 * 2) - error
-#Si el resultado da 7 (número entero), ¿Por qué da error?
 
 #¿y esta operación de suma?
-print("Hola + 18") #Se puede pero solo con la función String
+print("Hola + 18") #Se puede pero solo con la función string
 
-#02. OPERADORES DE COMPARACIÓN
+#OPERADORES DE COMPARACIÓN
 
 #Comparando términos numéricos
 
@@ -55,7 +53,6 @@ c = 3
 d = 4
 
 print("Comparando números")
-#print(a == b) #b igual a
 print(a != b) #es distinto a
 print(a < b) #b es mayor que a
 print(b < a) #a es mayor que b
@@ -74,15 +71,11 @@ print(animal_doméstico != animal_salvaje)
 print(animal_doméstico > animal_salvaje)
 print(animal_doméstico < animal_salvaje)
 
-#TAREA COMPARAR CADENAS DE TEXTO Y AVERIGUAR POR QUÉ DA TRUE O FALSE
-
-#BUCLES
+#Bucles If-Elif-Else
 
 #if es "Si"
-#else es "Sino"
 #elif es "Sino si"
-
-#Da TRUE porque lo lee siguiendo el ASCII (Valor número de cada letra)
+#else es "Sino"
 
 #COMPARANDO TÉRMINOS NÚMERICOS ASCII
 print ("comparando números")
@@ -91,31 +84,31 @@ bencina = False
 encendido = True
 edad = 20
 
-#Utilizando el operador AND
+#Utilizando el operador AND (y)
 if bencina and encendido:
     print("El auto puede avanzar")
 else:
     print("El auto no puede avanzar")
 
-#Utilizando el operador OR
+#Utilizando el operador OR (o)
 if bencina or encendido:
     print("El auto puede avanzar")
 else:
     print("El auto no puede avanzar")
 
-#Utilizando el operador NOT junto al AND
+#Utilizando el operador NOT junto al AND ("si no" complementando con el "y")
 if not bencina and encendido:
     print("El auto puede avanzar") #El NOT invierte el True o False en la variable (En este caso "bencina")
 else: 
     print("El auto no puede avanzar")
 
-#Utilizando el operador NOT junto al OR
+#Utilizando el operador NOT junto al OR 
 if not bencina and encendido:
     print("El auto puede avanzar")
 else:
     print("El auto no puede avanzar")
 
-#Utilizando el operador NOT junto al AND y OR
+#Utilizando el operador NOT junto al AND y OR ("Si no" complementando con el "y/o")
 if not bencina or (encendido and edad >= 17):
     print("El auto puede avanzar")
 else: 

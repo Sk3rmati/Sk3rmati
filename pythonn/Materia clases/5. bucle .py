@@ -45,7 +45,7 @@ num = 0
 while edad < 18:
     print("Edad inválida")
 
-#Que hace este bucle?
+#¿Que hace este bucle?
 
 while num <= 100:
     print(num)
